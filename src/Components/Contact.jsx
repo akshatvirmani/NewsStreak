@@ -5,7 +5,7 @@ function Contact() {
     <div id='contact'>
         <h3>Send Us Mail</h3>
         <div className='contact-input'>
-            <input type='email' placeholder='newstreak.com'/>
+            <input type='email' placeholder='john@doe.com'/>
             <a href='#'>Contact</a>
         </div>
     </div>
