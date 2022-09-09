@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from '../images/logo.png'
+// import logo from '../images/logo.png'
 function Navbar() {
     const [nav,setnav]=useState(false);
     const changeBg=()=>{
@@ -15,7 +15,7 @@ function Navbar() {
    
     <nav className={nav ? 'nav-active':'nav'}>
         <a href='#' className='logo'>
-            <img src={logo} alt=''/>
+            {/* <img src={logo} alt=''/> */}
         </a>
         <input type='checkbox' className='menu-btn' id='menu-btn'/>
         <label className='menu-icon' for='menu-btn'>
@@ -25,8 +25,9 @@ function Navbar() {
             <li><a href='#'>Home</a></li>
             <li><a href='#'>Features</a></li>
             <li><a href='#'>About</a></li>
-            <li><a href='#'>UI SS</a></li>
-            <li><a href='#'>Download</a></li>
+            <li><a href='#'>Login/Sign Up</a></li>
+            {/* <li><a href='#'>UI SS</a></li>
+            <li><a href='#'>Download</a></li> */}
         </ul>
     </nav>
   )
